@@ -1,0 +1,47 @@
+body{
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:hover{
+    color: gray;
+    /*background: Gainsboro;*/
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.navigationBar{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+hr { background-color: Gainsboro; height: 1px; border: 0; }
+
+img.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
