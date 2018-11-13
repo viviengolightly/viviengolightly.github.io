@@ -29,18 +29,18 @@ a:hover{
 }
 
 
-hr { background-color: Gainsboro; height: 1px; border: 0; }
+hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
 
-img.center{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+
+#mainImage{
+    max-width: 100%;
 }
 
 
 @media only screen and (max-width: 768px){
     [class*="navigationBar"]{
          grid-template-columns: 100%;
+         margin-bottom: 0px;
 
     }
     a{
@@ -49,9 +49,12 @@ img.center{
     }
     hr{
         height: 0px;
+        margin-bottom: 0px;
     }
    
 }
+
+
 
 
 
