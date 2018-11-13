@@ -19,13 +19,33 @@ a:hover{
 }
 
 .navigationBar{
-    /*margin-left:20%;
-    margin-right: 20%;*/
     margin-top: 30px;
     margin-bottom: 30px;
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: auto auto auto auto;
+}
+
+.icons{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.iconOne{
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.iconTwo{
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.iconThree{
+    grid-column-start: 6;
+    grid-column-end: 6;
 }
 
 
@@ -43,6 +63,7 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
          margin-bottom: 0px;
 
     }
+
     a{
         border-bottom: 1px solid gray;
         margin-bottom: 10px;
