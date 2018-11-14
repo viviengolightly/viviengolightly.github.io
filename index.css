@@ -25,6 +25,13 @@ h2{
     word-spacing: 10px;
 }
 
+h3{
+    font-weight: lighter;
+    font-size: 150%;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+}
+
 p{
     text-align: center;
     font-weight: lighter;
@@ -77,8 +84,21 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
     margin-bottom: 50px;
 }
 
+.outter{
+    margin-bottom: 30px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 80%
+}
 
-@media only screen and (max-width: 768px){
+.inner{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px){
     [class*="navigationBar"]{
          grid-template-columns: 100%;
          margin-bottom: 0px;
