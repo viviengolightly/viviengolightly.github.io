@@ -1,22 +1,39 @@
 body{
-    color: gray;
+    color: black;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 
 }
 
 a{
-    color: gray;
+    color: black;
     text-decoration: none;
     font-weight: lighter;
 }
 
 a:hover{
-    color: gray;
+    color: black;
     /*background: Gainsboro;*/
     text-decoration: line-through;
     font-weight: lighter;
 }
+
+h2{
+    font-weight: lighter;
+    font-size: 200%;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+}
+
+p{
+    text-align: center;
+    font-weight: lighter;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+
 
 .navigationBar{
     margin-top: 30px;
@@ -56,6 +73,10 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
     max-width: 100%;
 }
 
+.aboutme{
+    margin-bottom: 50px;
+}
+
 
 @media only screen and (max-width: 768px){
     [class*="navigationBar"]{
@@ -71,6 +92,11 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
     hr{
         height: 0px;
         margin-bottom: 0px;
+    }
+
+    p{
+         margin-left: 0px;
+         margin-right: 0px;
     }
    
 }
