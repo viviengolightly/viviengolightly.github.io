@@ -97,6 +97,17 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
     text-align: center;
 }
 
+.imgBox{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height:250px;
+    margin: auto;
+}
+
+.imgStyle{
+    text-align: center;
+    margin-top: 30px;
+}
 
 @media only screen and (max-width: 1000px){
     [class*="navigationBar"]{
