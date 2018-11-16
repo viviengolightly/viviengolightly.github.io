@@ -99,14 +99,14 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
 
 .imgBox{
     border: 1px solid rgba(0, 0, 0, 0.2);
-    width: 200px;
-    height:200px;
+    width: 180px;
+    height:180px;
     margin: auto;
 }
 
 .imgStyle{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 1000px){
