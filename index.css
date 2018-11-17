@@ -56,23 +56,23 @@ p{
     margin-right: 100px;
     margin-left: 100px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .iconOne{
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 8;
+    grid-column-end: 8;
 }
 
 .iconTwo{
-    grid-column-start: 5;
-    grid-column-end: 5;
+    grid-column-start: 9;
+    grid-column-end: 9;
 }
 
-.iconThree{
+/*.iconThree{
     grid-column-start: 6;
     grid-column-end: 6;
-}
+}*/
 
 
 hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
