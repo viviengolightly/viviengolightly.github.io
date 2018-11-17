@@ -30,6 +30,7 @@ h3{
     font-size: 150%;
     letter-spacing: -1px;
     word-spacing: 10px;
+    font-size: 25px;
 }
 
 p{
@@ -37,6 +38,7 @@ p{
     font-weight: lighter;
     margin-left: 300px;
     margin-right: 300px;
+    font-size: 20px;
 
 }
 
@@ -107,6 +109,10 @@ hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
 .imgStyle{
     text-align: center;
     margin-top: 15px;
+}
+
+.link{
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 1000px){
