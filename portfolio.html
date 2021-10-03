@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+	<title>Marta Szukalska's Portfolio</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<html>
+	<body>
+		<br>
+		<div>
+			<img class="logo" id="logo" src="logo2.png" width=95px />
+		</div>
+
+		<div class="navigationBar">
+		
+			  <a href="index.html">HOME</a>
+			  <a href="aboutme.html">ABOUT ME</a>
+			  <a href="portfolio.html">PORTFOLIO</a>
+			  <a href="contact.html">CONTACT ME</a>
+			
+		</div>
+
+		<hr></hr>
+
+		<div><h2>PORTFOLIO</h2></div>
+
+		<div class="outter">
+			<div class="inner">
+				<h3>ARDUINO SOUND SYNTHESISER</h3>
+				<div class="imgBox">
+					<img src="soundsynth.png" width="160px" class="imgStyle">
+				</div>
+
+				<p>PROJECT DESCRIPTION: Small and easy to use sound synthesiser based on an open-source Arduino hardware and 
+				software. Designed device produces sound on two oscillators (sine wave and square wave are generated) and 
+				gives the user a possibility to create melodies through adjustment of the input parameters using potentiometers
+				and buttons. The design consists of two main parts:</p>
+				<p>- SOFTWARE - two oscillators, that generate sine and square waves</p>
+				<p>- HARDWARE - low-pass filter, volume control, potentiometers to control waves' frequnecy, and 
+				imitation of one octave MIDI keyboard.</p>
+			</div>
+		</div>
+
+		<div class="outter">
+			<div class="inner">
+				<h3>AUDIO CROSSOVER</h3>
+				<p>PROJECT DESCRIPTION: Design and implementation of digital real time audio crossover. Main 
+				funtionality of the system is signal transformation from mono to stereo with two channels
+				(for high and low freuencies). The system's response was tested on the oscilloscope, and visualised using 
+				MATLAB. Detailed information can be found under the GitHub link below.
+				</p>
+				<p>TECHNOLOGIES USED: C++, BeagleBone Black, AudioCape, Bela Sound Platform</p>
+				<a class="link" href="https://github.com/viviengolightly/AudioCrossover">GitHub Link</a>
+			</div>
+		</div>
+
+		<div class="outter">
+			<div class="inner">
+				<h3>MOODSLIDER WEB APPLICATION</h3>
+				<p>PROJECT DESCRIPTION: Simple web application, that recommends movies based on 
+				the mood inserted by the user. The list of movies is extracted from the 
+				xml file uploaded, where each parent elemnt (programme) contains three child elements (name,
+				 mood and image). </p>
+				<p>TECHNOLOGIES USED: HTML, CSS(Bootstrap), JavaScript(jQuery, XMLHttpRequest).</p>
+				<a class="link" href="https://github.com/viviengolightly/Moodslider">GitHub Link</a>
+			</div>
+		</div>
+
+		<div class="outter">
+			<div class="inner">
+				<h3>FILM WEB APPLICATION</h3>
+				<p>PROJECT DESCRIPTION: Responsive web application, that extracts movies information from
+				database(MongoDb), and possesses three main functions: </p>
+				<p>- display films by genre</p>
+				<p>- search a film by title </p>
+				<p>- add new movie to the database</p>
+				<p>- display all movies</p>
+				<p>- delete movie from the database</p>
+				<p>TECHNOLOGIES USED: React, Node.js(RESTful API), CSS, MongoDB.</p>
+				<a class="link" href="https://github.com/viviengolightly/filmapp">GitHub Link</a>
+			</div>
+		</div>
+
+		<div class="outter">
+			<div class="inner">
+				<h3>MATLAB PROJECTS</h3>
+				<p>AUTOCORRELATION</p>
+				<p>Application of autocorrelation function to an audio signal.</p>
+				<a class="link" href="https://github.com/viviengolightly/AudioAutocorrelation/blob/master/Autokorelacja.m">GitHub Link</a>
+
+				<p>DFT, FFT, STFT</p>
+				<p>Implementation of Discrete Fourier Transform (DFT), Fast Fourier Transform (FFT), 
+				and Short Time Fourier Transform (STFT).</p>
+				<a class="link" href="https://github.com/viviengolightly/TarnsformMethods">GitHub Link</a>
+			</div>
+		</div>
+		
+
+
+	</body>
+</html>

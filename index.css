@@ -1,0 +1,150 @@
+body{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:hover{
+    color: black;
+    /*background: Gainsboro;*/
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 200%;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+}
+
+h3{
+    font-weight: lighter;
+    font-size: 150%;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    font-weight: lighter;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+
+}
+
+
+
+.navigationBar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.icons{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.iconOne{
+    grid-column-start: 8;
+    grid-column-end: 8;
+}
+
+.iconTwo{
+    grid-column-start: 9;
+    grid-column-end: 9;
+}
+
+/*.iconThree{
+    grid-column-start: 6;
+    grid-column-end: 6;
+}*/
+
+
+hr { background-color: Gainsboro; height: 1px; border: 0; margin-bottom: 30px; }
+
+
+#mainImage{
+    max-width: 100%;
+}
+
+.aboutme{
+    margin-bottom: 50px;
+}
+
+.outter{
+    margin-bottom: 30px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 80%
+}
+
+.inner{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.imgBox{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 180px;
+    height:180px;
+    margin: auto;
+}
+
+.imgStyle{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link{
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1000px){
+    [class*="navigationBar"]{
+         grid-template-columns: 100%;
+         margin-bottom: 0px;
+
+    }
+
+    a{
+        border-bottom: 1px solid gray;
+        margin-bottom: 10px;
+    }
+    hr{
+        height: 0px;
+        margin-bottom: 0px;
+    }
+
+    p{
+         margin-left: 0px;
+         margin-right: 0px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
